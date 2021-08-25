@@ -779,7 +779,7 @@ async def ytplay(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                      f"Error Occurred! Make sure Mikasa is not banned in the group or add her manually!")   
+                      f"Error Occurred! Make sure Nobara Assistant is not banned in the group or add her manually!")   
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
@@ -887,7 +887,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Mikasa"
+        user.first_name = "Nobara Assistant"
     usar = user
     wew = usar.id
     try:
@@ -915,7 +915,7 @@ async def deezer(client: Client, message_: Message):
                         message_.chat.id, "I joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>Mikasa joined the chat</b>",
+                        "<b>Nobara Assitant joined the chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -923,7 +923,7 @@ async def deezer(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"Error Occurred! Make sure Mikasa is not banned in the group or add her manually!")   
+                        f"Error Occurred! Make sure Nobara Assitant is not banned in the group or add her manually!")   
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
@@ -1051,7 +1051,7 @@ async def jiosaavn(client: Client, message_: Message):
                         message_.chat.id, "I joined this group for playing music in voice chat"
                     )
                     await lel.edit(
-                        "<b>Mikasa has joined the chat</b>",
+                        "<b>Nobara Assitant has joined the chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -1059,13 +1059,13 @@ async def jiosaavn(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"Error Occurred! Make sure Mikasa is not banned in the group or add her manually!")
+                        f"Error Occurred! Make sure Nobara Assitant is not banned in the group or add her manually!")
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> Mikasa is not in this chat, Ask an Admin to send /userbotjoin </i>"
+            "<i> Nobara Assitant is not in this chat, Ask an Admin to send /userbotjoin </i>"
         )
         return
     requested_by = message_.from_user.first_name
@@ -1170,7 +1170,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("You ain't the person who requested to play the song!", show_alert=True)
         return
-    await cb.message.edit("Mikasa is getting ready to play music hang on..")
+    await cb.message.edit("Nobara Assitant is getting ready to play music hang on..")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
