@@ -505,7 +505,7 @@ async def play(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"Error Occurred! Make sure Mikasa is not banned in the group or add her manually!")   
+                        f"Error Occurred! Make sure @Yato_VC is not banned in the group or add her manually!")   
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
@@ -1051,7 +1051,7 @@ async def jiosaavn(client: Client, message_: Message):
                         message_.chat.id, "I joined this group for playing music in voice chat"
                     )
                     await lel.edit(
-                        "<b>Nobara Assitant has joined the chat</b>",
+                        "<b>Assistant has joined the chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -1059,7 +1059,7 @@ async def jiosaavn(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"Error Occurred! Make sure Nobara Assitant is not banned in the group or add her manually!")
+                        f"Error Occurred! Make sure @Yato_VC is not banned in the group or add her manually!")
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
